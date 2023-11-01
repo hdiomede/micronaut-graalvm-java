@@ -7,6 +7,10 @@ import io.micronaut.http.annotation.Produces;
 
 @Controller("/hello")
 public class HelloController {
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
     @Get
     @Produces(MediaType.TEXT_PLAIN)
     public String index() {
